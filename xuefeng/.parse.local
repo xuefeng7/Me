@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Me": {
+      "applicationId": "yIXHt9rTdw2TZ5ozblwc1dpJwqnIGOhUwwZ39GoV"
+    },
+    "_default": {
+      "link": "Me"
+    }
+  }
+}
