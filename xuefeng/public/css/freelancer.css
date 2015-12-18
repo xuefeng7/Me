@@ -22,18 +22,27 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #fed136;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+h6 {
+
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 hr.star-light,
@@ -63,7 +72,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #fed136;
 }
 
 hr.star-primary {
@@ -79,10 +88,24 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-profile {
+
+    width:180px;
+    height: 180px;
+    border-radius: 90px;
+}
+
+.img-responsive {
+    width: 240px;
+    height: 240px;
+    border-radius: 45px;
+    box-shadow:5px 5px #d3d3d3;
+}
+
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #fed136;
 }
 
 header .container {
@@ -181,7 +204,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #fed136;
 }
 
 section.success a,
@@ -212,7 +235,7 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 240px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -220,7 +243,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(254,209,54,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -274,8 +297,14 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #fed136;
     background: #fff;
+}
+
+#send {
+    color: #ffffff;
+    background-color: #fed136;
+    border-color: #fed136;
 }
 
 .floating-label-form-group {
@@ -327,7 +356,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #fed136;
 }
 
 form .row:first-child .floating-label-form-group {
